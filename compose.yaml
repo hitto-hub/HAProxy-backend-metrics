@@ -1,0 +1,7 @@
+services:
+  flask-app:
+    build:
+      context: .
+    ports:
+      - "8088:8088"
+    restart: always
